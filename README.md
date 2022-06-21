@@ -4,7 +4,7 @@
 
 Projeto foi feito utilizando *HTML*, *CSS* e *Bootstrap*. 
 
-Em conjunto com:
+Realizado em grupo com:
   * [Lucas Zerino](https://github.com/LucasZerino)
   * [Lincon Alves](https://github.com/LincolnAAP)
   * [Vinicius Barauna](https://github.com/viniciusbarauna)
