@@ -5,7 +5,7 @@
 Projeto foi feito utilizando *HTML*, *CSS* e *Bootstrap*. 
 
 Em conjunto com:
-  * [Lucas Zerino](github.com/LucasZerino)
+  * [Lucas Zerino](https://github.com/LucasZerino)
   * [Lincon Alves](https://github.com/LincolnAAP)
   * [Vinicius Barauna](https://github.com/viniciusbarauna)
   * [Gabriel Lucio](https://github.com/Bieoool355)
