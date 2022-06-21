@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Barbearia</title>
+    <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
+<!-- CSS Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!------Bootstrap Icons-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<!-- JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!--CSS do projeto-->
+<link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <!-------NAVBAR início------->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand">
+                <img src='./assets/img/Navlogo.png' alt="Gama Barbearia">
+                <span>GamaBarbearia</span>
+            </a>
+       
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#precos" class="nav-link">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contatos" class="nav-link">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href= "#sobre" class="nav-link">Sobre nós</a>
+                    </li>
+                <li class="nav-item">
+                    <a href= "#contatos" class="nav-link">Localização</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-------NAVBAR Final------->
+
+
+
+    <!------SLIDER---------INICIO-->
+    <div class="container">
+        <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+            <div class="carousel-indicators">
+                <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/car-1.jpg" alt="Homem cortando o cabello" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Barbearia Gama</h5>
+                        <a href="#" class="btn btn-dark ancora"><span class="spanBotao">AGENDAR</span></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/car-2.jpg" alt="Homem cortando o cabello" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Barbearia Gama</h5>
+                        <a href="#" class="btn btn-dark ancora"><span class="spanBotao">CORTES</span></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/car-3.jpg" alt="Homem cortando o cabello" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Barbearia Gama</h5>
+                        <a href="#" class="btn btn-dark ancora"><span class="spanBotao">HORÁRIO</span></a>
+                    </div>
+                </div>
+                <button 
+                class="carousel-control-prev" 
+                data-bs-slide="prev" 
+                data-bs-target="#carouselExampleIndicators" 
+                type="button"><span aria-hidden="true" 
+                class="carousel-control-prev-icon"></span> 
+                    <span class="visually-hidden">Previous</span>
+                </button> 
+                <button 
+                class="carousel-control-next" 
+                data-bs-slide="next" 
+                data-bs-target="#carouselExampleIndicators" 
+                type="button"><span aria-hidden="true" 
+                class="carousel-control-next-icon">
+                </span><span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!------SLIDER---------FINAL-->
+     <hr class="featurette-divider">
+    <a id="sobre"></a>
+    <div class="container">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Oie tudo bem?</h2>
+                <p class="lead">Bem Vindo a Barbearia Gama!
+                    <br /><br />
+                    Localizada no coração da cidade de São Paulo a <strong>Barbearia Gama</strong> traz
+                    para o mercado o que há de melhor no conceito de Barbearia e Cabelo.
+        <br/> <br/>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-fluid rounded-top mx-auto" src="./assets/img/logo.jpeg"
+            alt="Logo Gama">
+        </div>
+    </div>
+      <!--Fim sobre-->
+      <!--Preços-->
+      <a id="precos"></a>
+      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+          <h1 class="display-4">Valores</h1>
+          <p class="lead">Confira os valores dos nossos serviços.</p>
+      </div>
+      <div class="card-deck mb-3 text-center">
+          <div class="card mb-4 box-shadow">
+              <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Barba</h4>
+              </div>
+              <div class="card-body">
+                  <h1 class="card-title pricing-card-title">R$ 49<small class="text-muted">,00</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                      <li>Barba e Bigode</li>
+                      <li>Parcelamento em até 2x sem juros</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Comprar</button>
+              </div>
+          </div>
+          <div class="card mb-4 box-shadow">
+              <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Barba e Cabelo</h4>
+              </div>
+              <div class="card-body">
+                  <h1 class="card-title pricing-card-title">R$ 80<small class="text-muted">,00</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                      <li>Barba, Cabelo e Bigode</li>
+                      <li>Parcelamento em até 4x sem juros</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Comprar</button>
+              </div>
+          </div>
+          <div class="card mb-4 box-shadow">
+              <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Pacote Completo</h4>
+              </div>
+              <div class="card-body">
+                  <h1 class="card-title pricing-card-title">R$ 120<small class="text-muted">,00</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                      <li>Pacote completo com barba, cabelo, bigode e massagem</li>
+                      <li>Parcelamento em até 4x sem juros</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Comprar</button>
+              </div>
+          </div>
+      </div>
+      <!--Fim Preços-->
+      <!--Contatos-->
+      <a id="contatos"></a>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Contatos</h1>
+            <p class="lead">
+                Entre em contato:
+                <p>
+                    <a target="_blank" href="https://www.instagram.com/gamaacademy/">
+                        <button class="btn btn-outline-secondary"><i class="fab fa-instagram"></i> Instagram</button>
+                    </a>
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0289151432603!2d-46.68668318558539!3d-23.56740496769942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57499b4eaaab%3A0xb742db44a55ce752!2sGama%20Academy!5e0!3m2!1spt-BR!2sbr!4v1654953320938!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </p>
+        </div>
+ </body>
+</html>
